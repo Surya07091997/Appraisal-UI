@@ -196,7 +196,7 @@ const saveSummaryComment = debounce(async (newSummary) => {
 watch(
   () => formData.score,
   (newScore) => {
-    saveScore(newScore);
+    saveScoree(newScore);
 },
 );
 watch(
